@@ -38,11 +38,15 @@ There's also support for observing multiple keypaths:
 ## Tests
 
 There's an XCTest project in this repository. It contains a few tests that verify
-the lifetime management of the observation and a good sample reference. To run it:
+the lifetime management of the observation and a good sample reference.
 
- 1. Clone this repository
- 2. Run `pod install` from the `./TestProject` directory
- 3. Run tests from XCode (Command + U).
+There's a script that runs the tests from command line:
+
+```bash
+$ clone https://github.com/eladb/CLBlockObservation
+$ cd CLBlockObservation/Tests
+$ ./run-tests.sh
+```
 
 ## Author
 
