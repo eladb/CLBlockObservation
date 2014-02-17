@@ -33,6 +33,7 @@ There's also support for observing multiple keypaths:
 [observee addObserver:observer keyPaths:@[ @"p1", @"p2" ] block:^{
   NSLog(@"be awesome!");  
 }];
+```
 
 ## Tests
 
