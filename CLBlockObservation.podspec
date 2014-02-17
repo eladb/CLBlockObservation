@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CLBlockObservation"
-  s.version          = "0.0.1"
+  s.version          = "0.1.0"
   s.summary          = "No hassle Objective-C blocks-based KVO library with automatic removal"
   s.homepage         = "https://github.com/eladb/CLBlockObservation"
   s.license          = 'MIT'
