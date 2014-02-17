@@ -1,0 +1,2 @@
+pod "CLBlockObservation", :path => "../CLBlockObservation.podspec"
+link_with 'CLBlockObservationTests'
